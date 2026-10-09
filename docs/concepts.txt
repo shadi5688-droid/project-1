@@ -9,7 +9,7 @@ they are not prebuilt web pages but they are built during runtime according to t
 with the help of server-side scripting languages such as PHP, Node.js, ASP.NET and many more supported by the server.
 So, they are slower than static websites but updates and interaction with databases are possible
 
-2. Role of HTML, CSS, and JavaScript
+2. Role of HTML, CSS, and JavaScript o
 HHTML: HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language.
 It acts as a skeleton for a website since it is used to make the structure of a website.
 
