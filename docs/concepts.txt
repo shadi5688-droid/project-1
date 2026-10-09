@@ -1,0 +1,12 @@
+1. Static vs. Dynamic Websites
+A static website displays fixed content that usually changes only when the developer edits its files.
+A dynamic website can display changing content based on user actions, databases, or other information.
+
+2. Role of HTML, CSS, and JavaScript
+HTML structures the content of a website, such as headings, paragraphs, images, and links.
+CSS controls the appearance of the website, including colors, fonts, and layout.
+JavaScript adds interactive features, such as buttons and menus.
+
+3. Purpose of Folder Organization
+Organizing project files into folders makes the project easier to understand, maintain, and update.
+For example, images are stored in the images folder, stylesheets in the css folder, and documentation in the docs folder.
