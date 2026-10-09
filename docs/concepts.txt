@@ -1,3 +1,5 @@
+1
+
 1. Static vs. Dynamic Websites
 
 Static Website: In Static Websites, Web pages are returned by the server which are prebuilt 
