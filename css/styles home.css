@@ -1,10 +1,171 @@
 body {
-    background-color:rgb(191, 227, 190);
-}
-h1 {
-    color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;     
+
+    background-color: #f1f7f2; 
+    color: #34483b;             /*front*/
 }
 
-p {
-    color:black;
+
+
+/*background */
+
+header {
+    background-color: white;
+    padding: 20px 70px;          /*حجم الشريط*/
+    display:flex;    /*تخلي العناصر مرتبه وجنب بعضهن*/
+    justify-content:space-between;   /*تحط في اكبر مسافة بيناتهن*/
+    align-items:center;             /*;تتحكم في ترتيب العناصر عموديًا داخل Flex.*/
+    border-bottom: 1px solid #dce9df;  /*line under the header*/
+}
+
+header h2 {
+    color: #527a63;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none; /* delete the line under the link */
+    color: #527a63;
+    margin-left: 30px; /*هنا نضع مسافة 30px على يسار كل رابط.*/
+}
+
+nav a:hover {
+    color: #86a991; /*يعني لما تمرري الماوس الرابط يتغير لونه.*/
+}
+
+
+
+main {
+    min-height: 600px; 
+
+    display:flex; /*تخلي العناصر مرتبه وجنب بعضهن*/
+    justify-content:flex;
+    align-items:center;   /*;تتحكم في ترتيب العناصر عموديًا داخل Flex.*/
+
+    gap: 300px; 
+
+    padding: 40px;
+}
+
+
+
+main > div:first-child { /*ول <div> موجود مباشرة داخل <main>.*/
+    width: 400px;
+}
+
+main > div:first-child h1 {
+    color: #3f6650;
+    font-size: 45px;
+}
+
+main > div:first-child p {
+    color: #718277;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+
+
+main > div:first-child img {
+    width: 400px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+
+
+main > div:last-child {
+    background-color: white;
+
+    width: 350px;
+
+    padding: 40px;
+
+    border-radius: 10px;/*الزاوية مدورة*/
+
+
+    box-shadow: 0 5px 20px #dce9df; /*ضيف ظلًا حول العنصر*/
+}
+
+main > div:last-child h2 {
+    color: #3f6650;
+}
+
+
+
+form label {
+    color: #52665a;
+}
+
+input {
+    width: 100%; /*جعل الـ input يأخذ عرض المساحة المتاحة بالكامل.*/
+
+    padding: 12px;
+
+    margin-top: 8px;
+
+    box-sizing: border-box; /*تجعل width: 100% تشمل الـ padding والـ border، وبالتالي لا يخرج الـ input خارج البطاقة.*/
+
+    border: 1px solid #ccdcd1;
+
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #86a991;
+}
+
+
+
+
+button {
+    width: 100%;
+
+    padding: 13px;
+
+    background-color: #527a63;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3f6650;
+}
+
+
+
+a {
+    color: #527a63;
+}
+
+a:hover {
+    color: #86a991;
+}
+
+
+
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: white;
+
+    color: #718277;
+
+    border-top: 1px solid #dce9df;
 }

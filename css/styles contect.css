@@ -1,3 +1,120 @@
 body {
-    background-color:rgb(191, 227, 190);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f7f2;
+    color: #34483b;
+}
+
+
+/* Header */
+
+header {
+    background-color: white;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dce9df;
+}
+
+header h2 {
+    color: #527a63;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #527a63;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    color: #86a991;
+}
+
+
+/* Main */
+
+main {
+    min-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+}
+
+
+/* Contact information */
+
+main > div {
+    width: 600px;
+    text-align: center;
+}
+
+main > div > h1 {
+    color: #3f6650;
+    font-size: 42px;
+}
+
+main > div > p {
+    color: #718277;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Contact boxes */
+
+main > div > div {
+    background-color: white;
+
+    padding: 25px;
+
+    margin-top: 25px;
+
+    border-radius: 15px;
+
+    border: 1px solid #dce9df;
+
+    box-shadow: 0 5px 15px #dce9df;
+}
+
+
+/* Image */
+
+main > div > div:first-of-type img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+
+/* Contact titles */
+
+main h3 {
+    color: #3f6650;
+}
+
+main > div > div p {
+    color: #718277;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: white;
+
+    color: #718277;
+
+    border-top: 1px solid #dce9df;
 }
