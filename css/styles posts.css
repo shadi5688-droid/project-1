@@ -6,7 +6,6 @@ body {
 }
 
 
-/* Header */
 
 header {
     background-color: white;
@@ -35,14 +34,13 @@ nav a:hover {
 }
 
 
-/* Main */
+
 
 main {
     padding: 50px;
 }
 
 
-/* Page title */
 
 main > div:first-child {
     text-align: center;
@@ -60,7 +58,6 @@ main > div:first-child p {
 }
 
 
-/* Posts */
 
 main > div:last-child {
     display: grid;
@@ -75,7 +72,6 @@ main > div:last-child {
 }
 
 
-/* Post */
 
 main > div:last-child > div {
     background-color: white;
@@ -90,7 +86,6 @@ main > div:last-child > div {
 }
 
 
-/* Images */
 
 img {
     width: 100%;
@@ -102,9 +97,8 @@ img {
 }
 
 
-/* Category */
 
-main > div:last-child > div > p:first-of-type {
+main > div:last-child > article > p:first-of-type {
     color: #71957d;
 
     font-size: 13px;
@@ -115,21 +109,18 @@ main > div:last-child > div > p:first-of-type {
 }
 
 
-/* Post title */
 
 main > div:last-child h2 {
     color: #3f6650;
 }
 
 
-/* Post text */
 
-main > div:last-child > div > p:last-child {
+main > div:last-child > article > p:last-child {
     color: #718277;
 
     line-height: 1.6;
 }
-/* Footer */
 
 footer {
     text-align: center;

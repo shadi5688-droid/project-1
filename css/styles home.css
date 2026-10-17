@@ -118,8 +118,8 @@ input {
 }
 
 input:focus {
-    outline: none;
-    border-color: #86a991;
+    outline:none;/* no*/
+    border-color: #0b140e;/* no*/
 }
 
 
