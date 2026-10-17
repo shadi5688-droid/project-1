@@ -15,7 +15,7 @@ header {
     padding: 20px 70px;          /*حجم الشريط*/
     display:flex;    /*تخلي العناصر مرتبه وجنب بعضهن*/
     justify-content:space-between;   /*تحط في اكبر مسافة بيناتهن*/
-    align-items:center;             /*;تتحكم في ترتيب العناصر عموديًا داخل Flex.*/
+    align-items:center;             /*نفس المستوى العمودي.*/
     border-bottom: 1px solid #dce9df;  /*line under the header*/
 }
 
@@ -40,7 +40,7 @@ main {
     min-height: 600px; 
 
     display:flex; /*تخلي العناصر مرتبه وجنب بعضهن*/
-    justify-content:flex;
+    justify-content:flex; /*nothing*/
     align-items:center;   /*;تتحكم في ترتيب العناصر عموديًا داخل Flex.*/
 
     gap: 300px; 
@@ -79,7 +79,6 @@ main > div:first-child img {
 }
 
 
-
 main > div:last-child {
     background-color: white;
 
@@ -99,9 +98,6 @@ main > div:last-child h2 {
 
 
 
-form label {
-    color: #52665a;
-}
 
 input {
     width: 100%; /*جعل الـ input يأخذ عرض المساحة المتاحة بالكامل.*/
@@ -116,13 +112,6 @@ input {
 
     border-radius: 8px;
 }
-
-input:focus {
-    outline:none;/* no*/
-    border-color: #0b140e;/* no*/
-}
-
-
 
 
 button {
